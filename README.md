@@ -1,5 +1,5 @@
 # Auto_tinder_swipe
-ブログ（http://healuniv.hatenablog.jp/entry/2017/12/05/210430）で紹介した自動右スワイプ用のコードを少し書き換えたもの．
+ブログ（http://healuniv.hatenablog.jp/entry/2017/12/05/210430 ）で紹介した自動右スワイプ用のコードを少し書き換えたもの．
 
 ## 使い方
 Facebook ID, トークンの取得およびpynderパッケージのインストールを終わってる前提で話を進めます．
