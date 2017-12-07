@@ -1,4 +1,4 @@
-# Auto_tinder_swipe
+# auto_tinder.py
 ブログ（http://healuniv.hatenablog.jp/entry/2017/12/05/210430 ）で紹介した自動右スワイプ用のコードを少し書き換えたもの．
 
 ## 使い方
