@@ -13,10 +13,10 @@ token = "your_fb_token" # アクセストークン(tinder_auth_fetcherで取得)
 session = pynder.Session(facebook_id = usrid, facebook_token = token) # Tinderアカウントへのログイン
 users = session.nearby_users() #近くに居るユーザの情報を取得
 
-counter = 0
+print "右スワイプ可能な回数：",session.likes_remaining
 
 for usr in users:
-    if counter == 100: # 課金ユーザなら10000などに設定
+    if session.likes_remaining == 0:
         print "右スワイプ終わり！"
         break
     #顔写真以外のプロフィール情報を表示
@@ -31,4 +31,3 @@ for usr in users:
         usr.dislike() # 左スワイプ
     else:
         usr.like() # 右スワイプ
-        counter += 1
